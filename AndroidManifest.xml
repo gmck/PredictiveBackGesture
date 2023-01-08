@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.predictivebackgesturexam" android:installLocation="auto">
+
+	<uses-sdk android:minSdkVersion="24" android:targetSdkVersion="33" />
+
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true"
+				 android:enableOnBackInvokedCallback="true" android:theme="@style/Theme.PredictiveBackGesture">
+	</application>
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
